@@ -4,15 +4,14 @@
 #讓使用者[最多3次]
 #不對就印出"密碼錯誤! 還有__次機會"
 #對的就印出"登入成功!"
-paw1 = 'a123456'
-x = 1
+pwd1 = 'a123456'
 y = 3
 while y > 0:
-	paw2 = input('請輸入密碼: ')	
+	pwd2 = input('請輸入密碼: ')	
 	y = y - 1
-	if paw1 == paw2:
+	if pwd2 == pwd1:
 		print('登入成功!')
 		break
 	else:
 		print('密碼錯誤! 還有', y, '次機會')
-		x = x + 1
+		
